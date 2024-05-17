@@ -1,3 +1,17 @@
 @import "style.sass"
 
-  
+.flex-container
+  display: flex
+  flex-wrap: wrap
+  max-width: 60%
+  margin: 0 auto
+  gap: 1rem
+  .flex-item
+    flex-grow: 1
+    padding: 2%
+    flex-basis: calc( 20% - 1rem )
+    display: flex
+    background: #042848
+
+    img
+      max-width: 100%
